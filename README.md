@@ -2,6 +2,39 @@
 Bellspirational stranica predstavlja stranicu sa sadržajem inspirativnog i motivacionog karaktera. Belma Skopljaković, 16650
 
 
+
+
+
+
+
+---------------------------------------------------
+SPIRALA 2
+
+1)Uradjeno:
+	a)Sva polja imaju JavaScript validaciju, gdje nevalidan unos onemogućava submit i ispisuje odgovarajuću poruku koja jeste dovoljna korisniku da može ispraviti svoju grešku. Također, poruka o greškama se nalazi u sklopu stranice (ispod submit dugmeta).
+	b)Koristeći JavaScript implementirane su sljedeće funkcionalnosti za 4Boda iz podzadatka b): Carousel i Korištenje localstorage za spašavanje posljednjeg unosa sa forme i prikaz pri ponovnom učitavanju stranice.*Napomena: za stranicu Favorities treba sacekati par sekundi da se prikaze prethodna vrijednost. 
+
+2)Nije uradjeno:
+Zadatak pod c), korištenje ajaxa.
+
+3)Lista fajlova: Pored navedenih za spiralu 1, dodane su sljedeće izmjene:
+	1.Quotes.html - Podstranica, gdje je postavljen carousel i blage izmjene forme na dnu;
+	2.Favorities.html - Podstranica, blage izmjene forme na dnu;
+	3.ContactUs.html - Podstranica, blage izmjene forme;
+	4.Style.css - css citavog projekta je u njemu;
+	5.localStorageF.js - js fajl za podstranicu Favorities;
+	6.localStorageQ.js - js fajl za podstranicu Quotes;
+	7.script.js - js fajl za ostatak projekta;
+	7.ReadMe.md - dodan opis za spiralu 2;
+
+
+
+
+
+
+
+
+
 ---------------------------------------------------
 SPIRALA 1
 
