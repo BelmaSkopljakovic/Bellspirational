@@ -284,3 +284,26 @@ background-repeat: no-repeat;
 	
 }
 
+/*carausel*/
+
+
+#slajd2 {
+	display: none;
+	text-align: center;
+}
+#slajd1 {
+	text-align: center;
+}
+
+#b2 {
+	position:right;
+	text-align: center;
+}
+
+#k  {
+	
+	
+	text-align: center;
+	
+
+}

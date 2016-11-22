@@ -11,6 +11,7 @@
 	</head>
 	
 	<body>
+	<script src="script.js"></script>
 		<div class="red">
 			<ul class="header">
 				<li><a class="podstranica" href="home.html">Home</a> </li>
@@ -31,12 +32,13 @@
 <div class="formapitanje">
 	<form>
   <h2>E-mail:</h2> <br>
-  <input id="emailinput" type="text" name="E-mail" value="" placeholder="Unesite e-mail">
+  <input id="emailinput" type="text" name="email" value="" placeholder="Unesite e-mail">
   <br>
   <h2>Pitanje:</h2> <br>
   <input id="pitanjeinput" type="text" name="pitanje" value="" placeholder="Pitanje koje postavljate">
   <br><br>
-  <input id="posaljibtn" type="submit" value="Send">
+  <button type="button" onclick="obje()">Pošalji</button>
+  <p id="democontact"></p>
 </form>
 	</div>
 

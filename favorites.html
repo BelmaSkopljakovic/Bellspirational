@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
+	
 		<link rel="stylesheet" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
@@ -11,7 +12,9 @@
 	</head>
 	
 	<body>
+	<script src="localStorageF.js"></script>
 		<div class="red">
+
 			<ul class="header">
 				<li><a class="podstranica" href="home.html">Home</a> </li>
 				<li><a class="podstranica" href="quotes.html">Quotes</a> </li>
@@ -101,12 +104,13 @@ Zbog bitnosti ove teme, ovaj intervju zaslužuje da uđe u Favorite oktobra.
 	<form id="A">
 <h1>Komentare možete ostaviti ispod: </h1><br>
   Ime:<br>
-  <input id="imeinput" type="text" name="ime" value="" placeholder="Obavezno polje">
+  <input id="imeinput1" type="text" name="ime" value="" placeholder="Obavezno polje">
   <br>
   Komentar: <br>
-  <input id="komentarinput" type="text" name="komentar" value="" placeholder="Komentar">
+  <input id="komentarinput1" type="text" name="komentar" value="" placeholder="Komentar">
   <br><br>
-  <input id="posaljibtn" type="submit" value="Pošalji">
+  <button type="button" onclick="objef()">Pošalji</button>
+  <p id="demofavorite"></p>
 </form>
 </div>
 

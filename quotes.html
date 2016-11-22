@@ -6,27 +6,36 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="masna.png"  />
 
+
 		<title>Bellspiration</title>
+
 	  
 	</head>
 	
 	<body>
+<script src="localStorageQ.js"></script>
 		<div class="red">
+
 			<ul class="header">
-				<li><a class="podstranica" href="home.html">Home</a> </li>
+			
+  				<li><a class="podstranica" href="home.html">Home</a></li>
 				<li><a class="active" href="quotes.html">Quotes</a> </li>
 				<li><a class="podstranica" href="stories.html">Stories</a> </li>
-				<li><a class="podstranica" href="favorites.html">Favorites</a></li>	        
-				<li><a class="podstranica" href="contactUs.html">Contact Us</a></li>
+				<li><a class="podstranica" href="favorites.html">Favorites</a></li>	     <li><a class="podstranica" href="contactUs.html">Contact Us</a></li>
 			</ul>
 		</div>
 
-<div class="red"></div>
 <div class="red">
+
+
+
 
 <div class="kolona cetri"><b>
 			"Svi postojimo za ljubav. Ona je pravilo egzistencije i njezina jedina svrha."</b>
-		</div></div>
+		</div>
+
+</div>
+
 
 
 <h1>Love</h1>
@@ -59,26 +68,49 @@
 <h2><br>Life</h2>
 <div class="red">
 	<div class="kolona jedan" style="background-color:inherit">
-				<a target="_blank" href="life1.jpg">
-					<img src="life1.jpg" alt="life1" width="281" height="200">
-				</a>
-			</div>
+				
+
+
+					<img id="life1" src="life1.jpg" alt="life1" width="281" height="200" onclick="makeModalImage('life1');">
+	</div>
 	<div class="kolona jedan" style="background-color:inherit">
-				<a target="_blank" href="life2.jpg">
-					<img src="life2.jpg" alt="life2" width="282" height="200">
-				</a>
-			</div>
+				
+					<img id="life2" src="life2.jpg" alt="life2" width="282" height="200" onclick="makeModalImage('life2');">
+	</div>
 	<div class="kolona jedan" style="background-color:inherit">
-				<a target="_blank" href="life3.jpg">
-					<img src="life3.jpg" alt="life3" width="282" height="200">
-				</a>
-			</div>
+				
+					<img id="life3" src="life3.jpg" alt="life3" width="282" height="200" onclick="makeModalImage('life3');">
+
+	</div>
 	<div class="kolona jedan" style="background-color:inherit">
-				<a target="_blank" href="life4.jpg">
-					<img src="life4.jpg" alt="life4" width="281" height="200">
-				</a>
-			</div>
+	
+				<img id="life4" src="life4.jpg" alt="life4" width="282" height="200" onclick="prikaz('life4');">
+
+	</div>
 </div>
+
+<div class="w3-content w3-display-container">
+<div class="red">
+<div class="kolona dva">
+<button id="b" class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">Prethodna</button></div>
+<div class="kolona dva">
+  <button id="b2" class="w3-btn-floating w3-display-right" onclick="plusDivs(1)" position:right>Sljedeća</button>
+  </div>
+ </div>
+<div class="red">
+<div class="kolona jedan"></div>
+<div class="kolona dva" id="k">
+  <img id="slajd1" class="mySlides" src="life1.jpg" width="482" height="200">
+  <img id="slajd2" class="mySlides" src="life2.jpg" width="482" height="200">
+  <img id="slajd2" class="mySlides" src="life3.jpg" width="482" height="200">
+  <img id="slajd2" class="mySlides" src="life4.jpg" width="482" height="200"></div>
+<div class="kolona jedan"></div>
+  </div>
+ 
+
+  
+</div>
+
 
 
 
@@ -93,12 +125,19 @@
   Quote: <br>
   <input id="komentarinput" type="text" name="komentar" value="" placeholder="Vaš omiljeni citat">
   <br><br>
-  <input id="posaljibtn" type="submit" value="Pošalji"><br><br>
+
+ 
+
+  
+  <button type="button" onclick="objeq() ">Pošalji</button>
+  <p id="demoquote"></p>
+
 </form>
 </div>
 
 	</div></div>
 
+	
 
 
 <div class="clearfix"></div>
@@ -106,6 +145,12 @@
 		<div class="footer">
 			Copyright © Belma Skopljakovic | All rights reserved
 		</div>
+
+
+
+
+
+
 	
 	</body>  
 </html>
