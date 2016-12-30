@@ -9,12 +9,21 @@ Bellspirational stranica predstavlja stranicu sa sadržajem inspirativnog i moti
 SPIRALA 3
 
 1)Uradjeno:
-	a)Koristeći PHP, napravljena je serijalizacija svih podataka u XML fajlove (sa svih formi - svaka forma drugi fajl). Omogućen je unos, izmjena i prikazivanje podataka, kao i brisanje (Sve navedeno je primijenjeno na tabeli na prvoj podstranici Home). Svi podaci koji se unose u XML fajlove su validirani (validacija i u PHPu i u JS - ostavila sam po dva dugmeta za prethodne forme, gdje sam staro dugme Posalji preimenovala u Help ili Prikazi greske, a novim button-om se salje u xml. Oba prikazuju greske i napomene u zavisnosti od greske prilikom unosa)
+	
+a)Koristeći PHP, napravljena je serijalizacija svih podataka u XML fajlove (sa svih formi - svaka forma drugi fajl). Omogućen je unos, izmjena i prikazivanje podataka, kao i brisanje (Sve navedeno je primijenjeno na tabeli na prvoj podstranici Home). Svi podaci koji se unose u XML fajlove su validirani (validacija i u PHPu i u JS - ostavila sam po dva dugmeta za prethodne forme, gdje sam staro dugme Posalji preimenovala u Help ili Prikazi greske, a novim button-om se salje u xml. Oba prikazuju greske i napomene u zavisnosti od greske prilikom unosa)
 	*Napomena: za stranicu Favorities treba sacekati par sekundi da se sve prikaze i ucita. 
-Unos, izmjenu i brisanje podataka iz tabele moze raditi samo admin korisnik. Adminovi podaci su zapisani u xml fajlu (username: belma, password: belma). Postoje jos neki zapisani korisnici prilikom moje provjere, kao npr obicni korisnik sa Username: sunce i Password:sunce.
-	b)Omogućeno je adminu download podataka (lista naziva knjiga koje su slali korisnici) u obliku csv fajla. *Podaci su iz xml-a, a ne hardkodirani podaci.
-	c)Napravljena je opcija generisanja izvještaja u obliku pdf fajla. Ovaj izvještaj sadrži podatke iz tabele na Home podstranici. Korištena je fpdf biblioteka. *Podaci su iz xml-a, a ne hardkodirani podaci.
-	d)Napravljena je opcija pretrage podataka. Pretraga radi za dva polja, za ime autora i naziv knjige. Kada korisnik pritisne na dugme po kojem se pretrazuje, prikazuju se svi rezultati koji zadovoljavaju uslov.
+Unos, izmjenu i brisanje podataka iz tabele moze raditi samo admin korisnik. 
+
+Adminovi podaci su zapisani u xml fajlu (username: belma, password: belma). 
+
+Postoje jos neki zapisani korisnici prilikom moje provjere, kao npr obicni korisnik sa Username: sunce i Password:sunce.
+	
+
+b)Omogućeno je adminu download podataka (lista naziva knjiga koje su slali korisnici) u obliku csv fajla. *Podaci su iz xml-a, a ne hardkodirani podaci.
+	
+c)Napravljena je opcija generisanja izvještaja u obliku pdf fajla. Ovaj izvještaj sadrži podatke iz tabele na Home podstranici. Korištena je fpdf biblioteka. *Podaci su iz xml-a, a ne hardkodirani podaci.
+	
+d)Napravljena je opcija pretrage podataka. Pretraga radi za dva polja, za ime autora i naziv knjige. Kada korisnik pritisne na dugme po kojem se pretrazuje, prikazuju se svi rezultati koji zadovoljavaju uslov.
 *Podaci su iz xml-a, a ne hardkodirani podaci.
 
 2)Uradjen je i Deployment na OpenShift. Link http://sptri-bellspiration.44fs.preview.openshiftapps.com/
