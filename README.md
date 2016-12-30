@@ -6,6 +6,41 @@ Bellspirational stranica predstavlja stranicu sa sadržajem inspirativnog i moti
 
 
 
+SPIRALA 3
+
+1)Uradjeno:
+	a)Koristeći PHP, napravljena je serijalizacija svih podataka u XML fajlove (sa svih formi - svaka forma drugi fajl). Omogućen je unos, izmjena i prikazivanje podataka, kao i brisanje (Sve navedeno je primijenjeno na tabeli na prvoj podstranici Home). Svi podaci koji se unose u XML fajlove su validirani (validacija i u PHPu i u JS - ostavila sam po dva dugmeta za prethodne forme, gdje sam staro dugme Posalji preimenovala u Help ili Prikazi greske, a novim button-om se salje u xml. Oba prikazuju greske i napomene u zavisnosti od greske prilikom unosa)
+	*Napomena: za stranicu Favorities treba sacekati par sekundi da se sve prikaze i ucita. 
+Unos, izmjenu i brisanje podataka iz tabele moze raditi samo admin korisnik. Adminovi podaci su zapisani u xml fajlu (username: belma, password: belma). Postoje jos neki zapisani korisnici prilikom moje provjere, kao npr obicni korisnik sa Username: sunce i Password:sunce.
+	b)Omogućeno je adminu download podataka (lista naziva knjiga koje su slali korisnici) u obliku csv fajla. *Podaci su iz xml-a, a ne hardkodirani podaci.
+	c)Napravljena je opcija generisanja izvještaja u obliku pdf fajla. Ovaj izvještaj sadrži podatke iz tabele na Home podstranici. Korištena je fpdf biblioteka. *Podaci su iz xml-a, a ne hardkodirani podaci.
+	d)Napravljena je opcija pretrage podataka. Pretraga radi za dva polja, za ime autora i naziv knjige. Kada korisnik pritisne na dugme po kojem se pretrazuje, prikazuju se svi rezultati koji zadovoljavaju uslov.
+*Podaci su iz xml-a, a ne hardkodirani podaci.
+
+2)Nije uradjeno: Deployment na OpenShift.
+
+
+3)Lista fajlova: Pored navedenih za spiralu 2, dodane su sljedeće izmjene:
+	0.Home.html -> Home.php podstranica, gdje je postavljena tabela sa svim aktivnostima za admina, zatim download pdf, pretraga, download csv podataka sa forme pored.
+	1.Quotes.html -> Quotes.php podstranica, blage izmjene forme na dnu zbog php validacije.
+	2.Favorities.html -> Favorities.php podstranica, blage izmjene forme na dnu radi php valdiacije;
+	3.Stories.html -> Stories.php podstranica, nema izmjena
+	4.ContactUs.html - ContactUs.php podstranica, blage izmjene forme radi php validacije;
+	5.Style.css - css citavog projekta je u njemu, napravljene  potrebne izmjene;
+	6.instantPretrazivanje.js - js fajl sa metodom za pretragu
+	7.csv.js - js fajl za svrhu csv fajla
+	8.loginRegistration - js fajl za svrhu login korisnika, dakle za formu sa nulte login, tj. registration podstranice
+	9.script.js - js fajl za ostatak projekta;
+	10.Folderi: feedback (xml-podaci sa forme ContactUs), fpdf biblioteka, knjige (podaci sa forme sa pocetne Home.php), knjige najbolje (podaci iz tabele sa Home.php), komentari (podaci sa forme na Favorities.php), quotes(podaci sa forme na Quotes.php).
+	11.registracija.php i index.php (nulte podstranice za registraciju, tj login korisnika)
+	12.odjava.php - za prekid/odjavu
+	13.slika loginSlika - za login stranicu
+	14.ReadMe.md - dodan opis za spiralu 3;
+
+
+
+
+
 
 ---------------------------------------------------
 SPIRALA 2
