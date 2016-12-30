@@ -17,7 +17,7 @@ Unos, izmjenu i brisanje podataka iz tabele moze raditi samo admin korisnik. Adm
 	d)Napravljena je opcija pretrage podataka. Pretraga radi za dva polja, za ime autora i naziv knjige. Kada korisnik pritisne na dugme po kojem se pretrazuje, prikazuju se svi rezultati koji zadovoljavaju uslov.
 *Podaci su iz xml-a, a ne hardkodirani podaci.
 
-2)Nije uradjeno: Deployment na OpenShift.
+2)Uradjen je i Deployment na OpenShift. Link http://sptri-bellspiration.44fs.preview.openshiftapps.com/
 
 
 3)Lista fajlova: Pored navedenih za spiralu 2, dodane su sljedeće izmjene:
