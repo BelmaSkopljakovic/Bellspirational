@@ -10,10 +10,11 @@ a) Napravljena MySQL bazu sa tri povezane tabele: Korisnici, Knjige i Najbolje k
 b) Napravljena PHP skripta koja će sve podatke iz XML prebaciti u bazu podataka,
 ova skripta se poziva na klik dugmeta kojeg može vidjeti samo administrator (username: belma; password: belma);
 c) Prepravljene su PHP skripte tako da se podaci čuvaju i kupe iz baze podataka umjesto iz XML-a;
-e) Napravljena jedna metoda REST web servisa koja vraća podatke u obliku JSON-a;
+e) Napravljena jedna metoda REST web servisa koja vraća podatke u obliku JSON-a;Naravno, za zadani id koji treba navesti.
 f) Testiran web servis koristeći POSTMAN i priložen odgovarajući izvještaj (screenshot 3-4 različita slučaja upotreba);
 
 2)Deployment na OpenShift (zasad samo link od prosle spirale) Link http://sptri-bellspiration.44fs.preview.openshiftapps.com/
+Nije uradjen deployment za ovu spiralu, imam izvjesne probleme kao http://pokit.org/get/?cf2690ea02e6a3d38fedf72922f59afc.jpg ili nakon nekoliko pokusaja http://pokit.org/get/?5f2be6ce06fe3de2cf86414f06fcbda3.jpg koje nisam uspjela riješiti :(
 
 3)Lista fajlova: Pored navedenih za spiralu 3, dodane su sljedeće izmjene:
    1. home.php - skripta u kojoj su napravljene sve potrebne izmjene u vezi zadataka pod b) i c);
