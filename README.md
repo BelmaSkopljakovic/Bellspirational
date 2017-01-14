@@ -2,9 +2,26 @@
 Bellspirational stranica predstavlja stranicu sa sadržajem inspirativnog i motivacionog karaktera. Belma Skopljaković, 16650
 
 
+SPIRALA 4
 
+1)Uradjeno:
 
+a) Napravljena MySQL bazu sa tri povezane tabele: Korisnici, Knjige i Najbolje knjige;
+b) Napravljena PHP skripta koja će sve podatke iz XML prebaciti u bazu podataka,
+ova skripta se poziva na klik dugmeta kojeg može vidjeti samo administrator (username: belma; password: belma);
+c) Prepravljene su PHP skripte tako da se podaci čuvaju i kupe iz baze podataka umjesto iz XML-a;
+e) Napravljena jedna metoda REST web servisa koja vraća podatke u obliku JSON-a;
+f) Testiran web servis koristeći POSTMAN i priložen odgovarajući izvještaj (screenshot 3-4 različita slučaja upotreba);
 
+2)Deployment na OpenShift (zasad samo link od prosle spirale) Link http://sptri-bellspiration.44fs.preview.openshiftapps.com/
+
+3)Lista fajlova: Pored navedenih za spiralu 3, dodane su sljedeće izmjene:
+   1. home.php - skripta u kojoj su napravljene sve potrebne izmjene u vezi zadataka pod b) i c);
+   2. webServis.php - skripta za zadatak e);
+   3. postman_screensh  - folder za zadatak f) /testiranje web servisa;
+   4. bellspirationwt.sql - baza export sa phpMyAdmin;
+   5. bellspirationwt.pdf - izvjestaj za bazu skinut sa phpMyAdmin;
+----------------------------------------------------------------------
 
 SPIRALA 3
 
